@@ -4,7 +4,6 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 import PerfectEscape from "@/components/perfectEscape";
 import Plan from "@/components/plan";
-import Image from "next/image";
 
 export default function Home() {
   return (
