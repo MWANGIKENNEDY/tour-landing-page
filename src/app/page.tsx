@@ -7,7 +7,7 @@ import Plan from "@/components/plan";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className=" dark:bg-gray-900">
 
       <Header/>
       <Escape/>

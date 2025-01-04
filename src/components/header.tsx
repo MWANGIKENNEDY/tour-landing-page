@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SearchForm from "./searchForm";
 
 const Header = () => {
     return (
@@ -98,36 +99,10 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className="-mt-12 z-50 mx-auto relative border-white/12 flex w-[92%] max-w-[68rem] flex-col gap-4 rounded-3xl border-0 bg-white p-6 lg:w-auto lg:flex-row lg:rounded-full lg:p-10 shadow">
-            <div className="lg:flex-1">
-              <button className="flex w-full items-center justify-between px-4 py-3 text-sm shadow border-white/12 rounded-full">
-                <span>Italy, Romania</span>
-                <span>$</span>
-              </button>
-            </div>
-            <div className="lg:flex-1">
-              <input
-                type="datetime-local"
-                className="border-white/12 w-full cursor-pointer rounded-full border-0 px-4 py-3 text-sm dark:border"
-              />
-            </div>
-            <div className="lg:flex-1">
-              <input
-                type="datetime-local"
-                className="border-white/12 w-full cursor-pointer rounded-full border-0 px-4 py-3 text-sm dark:border"
-              />
-            </div>
-            <div className="lg:flex-1">
-              <button className="flex w-full items-center justify-between px-4 py-3 text-sm shadow rounded-full">
-                <span>1 Room, 2 Guests</span>
-              </button>
-            </div>
-            <div className="lg:flex-1">
-              <button className="w-full bg-blue-600 shadow px-4 py-3 text-center text-sm text-white rounded-full">
-                Search
-              </button>
-            </div>
-          </div>
+
+
+
+       <SearchForm/>
         </div>
       </section>
     );
